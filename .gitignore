@@ -1,0 +1,33 @@
+HELP.md
+motorizadinhos-app/target/
+!motorizadinhos-app/.mvn/wrapper/maven-wrapper.jar
+!motorizadinhos-app/**/src/main/**/target/
+!motorizadinhos-app/**/src/test/**/target/
+
+### STS ###
+motorizadinhos-app/.apt_generated
+motorizadinhos-app/.classpath
+motorizadinhos-app/.factorypath
+motorizadinhos-app/.project
+motorizadinhos-app/.settings
+motorizadinhos-app/.springBeans
+motorizadinhos-app/.sts4-cache
+
+### IntelliJ IDEA ###
+motorizadinhos-app/.idea
+motorizadinhos-app/*.iws
+motorizadinhos-app/*.iml
+motorizadinhos-app/*.ipr
+
+### NetBeans ###
+motorizadinhos-app//nbproject/private/
+motorizadinhos-app//nbbuild/
+motorizadinhos-app//dist/
+motorizadinhos-app//nbdist/
+motorizadinhos-app//.nb-gradle/
+motorizadinhos-app/build/
+!motorizadinhos-app/**/src/main/**/build/
+!motorizadinhos-app/**/src/test/**/build/
+
+### VS Code ###
+motorizadinhos-app/.vscode/

@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://ec2-52-44-209-165.compute-1.amazonaws.com:5432/doqj08q9b1jov
+    username: cjmyhwriywiowk
+    password: f23608ef93060b501d5a4a7a4a2b48c13e6be3da0e67fa9454bdefa203e16713
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+server:
+  port: 8080
