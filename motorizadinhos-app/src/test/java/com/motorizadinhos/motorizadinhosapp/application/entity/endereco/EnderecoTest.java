@@ -1,4 +1,4 @@
-package com.motorizadinhos.motorizadinhosapp.application.endereco;
+package com.motorizadinhos.motorizadinhosapp.application.entity.endereco;
 
 import org.junit.jupiter.api.Test;
 

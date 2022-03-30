@@ -1,4 +1,4 @@
-package com.motorizadinhos.motorizadinhosapp.application.pessoa;
+package com.motorizadinhos.motorizadinhosapp.application.entity.pessoa;
 
 import br.com.caelum.stella.validation.CPFValidator;
 import br.com.caelum.stella.validation.InvalidStateException;

@@ -1,7 +1,7 @@
-package com.motorizadinhos.motorizadinhosapp.application.funcionario;
+package com.motorizadinhos.motorizadinhosapp.application.entity.funcionario;
 
-import com.motorizadinhos.motorizadinhosapp.application.endereco.Endereco;
-import com.motorizadinhos.motorizadinhosapp.application.pessoa.Contato;
+import com.motorizadinhos.motorizadinhosapp.application.entity.endereco.Endereco;
+import com.motorizadinhos.motorizadinhosapp.application.entity.pessoa.Contato;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 
@@ -22,6 +22,7 @@ class FuncionarioTest {
             .comNomeSobrenome("Uem", "Maringá")
             .comContato(contato)
             .comEndereco(endereco)
+            .comSenha("123")
             .build();
 
     @Test
@@ -37,7 +38,7 @@ class FuncionarioTest {
 
     @Test
     public void deveCriarFuncionarioComOsDadosCorretos() {
-        assertNull(funcionario.getSenha());
+        assertEquals(funcionario.getSenha(), "123");
         assertEquals(funcionario.getContato(), contato);
         assertEquals(funcionario.getEndereco(), endereco);
         assertTrue(funcionario.isAtivo());
@@ -64,6 +65,11 @@ class FuncionarioTest {
         funcionario.inativar();
         assertFalse(funcionario.isAtivo());
         assertThrows(IllegalStateException.class, funcionario::inativar);
+    }
+
+    @Test
+    public void deveLancarExcecaoAoAutenticarComSenhaIncorreta() {
+        assertThrows(IllegalArgumentException.class, () -> funcionario.autenticar("1234"));
     }
 
 }

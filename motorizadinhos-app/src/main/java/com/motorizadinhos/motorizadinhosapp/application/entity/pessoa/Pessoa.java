@@ -1,6 +1,6 @@
-package com.motorizadinhos.motorizadinhosapp.application.pessoa;
+package com.motorizadinhos.motorizadinhosapp.application.entity.pessoa;
 
-import com.motorizadinhos.motorizadinhosapp.application.endereco.Endereco;
+import com.motorizadinhos.motorizadinhosapp.application.entity.endereco.Endereco;
 
 import javax.persistence.*;
 import java.time.LocalDate;

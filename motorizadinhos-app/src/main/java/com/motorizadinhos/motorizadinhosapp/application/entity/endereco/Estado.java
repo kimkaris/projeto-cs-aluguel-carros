@@ -1,4 +1,4 @@
-package com.motorizadinhos.motorizadinhosapp.application.endereco;
+package com.motorizadinhos.motorizadinhosapp.application.entity.endereco;
 
 public enum Estado {
     AC, AL, AP, AM, BA, CE, ES, GO, MA, MT,

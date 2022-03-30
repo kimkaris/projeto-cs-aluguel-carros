@@ -1,8 +1,8 @@
-package com.motorizadinhos.motorizadinhosapp.application.funcionario;
+package com.motorizadinhos.motorizadinhosapp.application.entity.funcionario;
 
-import com.motorizadinhos.motorizadinhosapp.application.endereco.Endereco;
-import com.motorizadinhos.motorizadinhosapp.application.pessoa.Contato;
-import com.motorizadinhos.motorizadinhosapp.application.pessoa.Pessoa;
+import com.motorizadinhos.motorizadinhosapp.application.entity.endereco.Endereco;
+import com.motorizadinhos.motorizadinhosapp.application.entity.pessoa.Contato;
+import com.motorizadinhos.motorizadinhosapp.application.entity.pessoa.Pessoa;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -98,12 +98,22 @@ public class Funcionario extends Pessoa {
         this.ativo = true;
     }
 
+    public void autenticar(String senha) {
+        if (!this.senha.equals(senha)) {
+            throw new IllegalArgumentException("Senha incorreta!");
+        }
+    }
+
     public String getEmail() {
         return email;
     }
 
     public String getSenha() {
         return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
     public Boolean isAdministrador() {

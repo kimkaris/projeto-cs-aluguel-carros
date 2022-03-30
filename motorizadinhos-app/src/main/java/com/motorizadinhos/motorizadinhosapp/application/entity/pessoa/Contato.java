@@ -1,4 +1,4 @@
-package com.motorizadinhos.motorizadinhosapp.application.pessoa;
+package com.motorizadinhos.motorizadinhosapp.application.entity.pessoa;
 
 import javax.persistence.*;
 import java.util.UUID;
@@ -39,12 +39,12 @@ public class Contato {
         }
 
         public Builder comTelefoneFixo(String telefoneFixo) {
-            this.telefoneFixo = telefoneFixo;
+            this.telefoneFixo = telefoneFixo.replaceAll("[^0-9]","");
             return this;
         }
 
         public Builder comTelefoneCelular(String telefoneCelular) {
-            this.telefoneCelular = telefoneCelular;
+            this.telefoneCelular = telefoneCelular.replaceAll("[^0-9]","");;
             return this;
         }
 
