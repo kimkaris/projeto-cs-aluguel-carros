@@ -21,7 +21,7 @@ public abstract class Pessoa {
     protected String sobrenome;
     @Column(name = "data_nascimento", nullable = false)
     protected LocalDate dataNascimento;
-    @Column(name = "cpf", length = 11, nullable = false)
+    @Column(name = "cpf", length = 11, nullable = false, unique = true)
     protected String cpf;
     @OneToOne(mappedBy = "pessoa", cascade = CascadeType.ALL)
     @PrimaryKeyJoinColumn
