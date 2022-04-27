@@ -21,12 +21,16 @@ public class EnderecoService {
     }
 
     public Endereco save(EnderecoMutationDTO creationDTO) {
-        Endereco endereco = new Endereco.Builder(creationDTO.getEstado(), creationDTO.getCidade())
-                .noBairro(creationDTO.getBairro())
-                .noLogradouro(creationDTO.getLogradouro())
-                .noNumero(creationDTO.getNumero())
-                .build();
+        Endereco endereco = construirEndereco(creationDTO);
         return persist(endereco);
+    }
+
+    private Endereco construirEndereco(EnderecoMutationDTO dto) {
+        return new Endereco.Builder(dto.getEstado(), dto.getCidade())
+                .noBairro(dto.getBairro())
+                .noLogradouro(dto.getLogradouro())
+                .noNumero(dto.getNumero())
+                .build();
     }
 
     public Endereco update(UUID id, EnderecoMutationDTO update) {
@@ -39,17 +43,17 @@ public class EnderecoService {
         return persist(endereco);
     }
 
-    public void delete(UUID id) {
-        repository.deleteById(id);
+    public Endereco getById(UUID id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("Endereco de ID [" + id + "] não encontrado."));
     }
 
     private Endereco persist(Endereco endereco) {
         return repository.save(endereco);
     }
 
-    public Endereco getById(UUID id) {
-        return repository.findById(id)
-                .orElseThrow(() -> new EntityNotFoundException("Endereco de ID [" + id + "] não encontrado."));
+    public void delete(UUID id) {
+        repository.deleteById(id);
     }
 
 }

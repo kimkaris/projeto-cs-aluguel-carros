@@ -1,5 +1,7 @@
 package com.motorizadinhos.motorizadinhosapp.application.entity.funcionario;
 
+import com.motorizadinhos.motorizadinhosapp.application.entity.aluguel.Aluguel;
+import com.motorizadinhos.motorizadinhosapp.application.entity.carro.Carro;
 import com.motorizadinhos.motorizadinhosapp.application.entity.endereco.Endereco;
 import com.motorizadinhos.motorizadinhosapp.application.entity.pessoa.Contato;
 import com.motorizadinhos.motorizadinhosapp.application.entity.pessoa.Pessoa;
@@ -82,7 +84,9 @@ public class Funcionario extends Pessoa {
         }
     }
 
-    public void alugarCarroPara() {} // TODO implementar após criar entidades Carro e Cliente
+    public Aluguel alugarCarroPara(Carro carro, String cliente) {
+        return new Aluguel(carro, cliente, this);
+    }
 
     public void inativar() {
         if (!ativo) {

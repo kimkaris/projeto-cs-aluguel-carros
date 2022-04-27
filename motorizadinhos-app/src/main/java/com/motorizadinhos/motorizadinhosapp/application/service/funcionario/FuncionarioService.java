@@ -28,16 +28,20 @@ public class FuncionarioService {
     }
 
     public Funcionario save(FuncionarioMutationDTO creationDTO) {
-        Funcionario funcionario = new Funcionario.Builder(creationDTO.getDataNascimento(), creationDTO.getCpf(), creationDTO.getEmail())
-                .comNomeSobrenome(creationDTO.getNome(), creationDTO.getSobrenome())
-                .comSenha(creationDTO.getSenhaAtual())
-                .comContato(createContato(creationDTO.getContato()))
-                .comEndereco(enderecoService.getById(creationDTO.getEnderecoId()))
-                .build();
+        Funcionario funcionario = construirFuncinoario(creationDTO);
         return persist(funcionario);
     }
 
-    private Contato createContato(ContatoMutationDTO creationDTO) {
+    private Funcionario construirFuncinoario(FuncionarioMutationDTO dto) {
+        return new Funcionario.Builder(dto.getDataNascimento(), dto.getCpf(), dto.getEmail())
+                .comNomeSobrenome(dto.getNome(), dto.getSobrenome())
+                .comSenha(dto.getSenhaAtual())
+                .comContato(construirContato(dto.getContato()))
+                .comEndereco(enderecoService.getById(dto.getEnderecoId()))
+                .build();
+    }
+
+    private Contato construirContato(ContatoMutationDTO creationDTO) {
         return Objects.isNull(creationDTO) ? null : new Contato.Builder(creationDTO.getEmail())
                 .comTelefoneFixo(creationDTO.getTelefoneFixo())
                 .comTelefoneCelular(creationDTO.getTelefoneCelular())
@@ -61,17 +65,17 @@ public class FuncionarioService {
         }
     }
 
-    public void delete(UUID id) {
-        repository.deleteById(id);
+    public Funcionario getById(UUID id) {
+        return repository.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("Funcionario de ID [" + id + "] não encontrado."));
     }
 
     private Funcionario persist(Funcionario funcionario) {
         return repository.save(funcionario);
     }
 
-    public Funcionario getById(UUID id) {
-        return repository.findById(id)
-                .orElseThrow(() -> new EntityNotFoundException("Funcionario de ID [" + id + "] não encontrado."));
+    public void delete(UUID id) {
+        repository.deleteById(id);
     }
 
 }
