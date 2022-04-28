@@ -56,7 +56,7 @@ public class TelaCadastroCarro extends javax.swing.JFrame {
         jLabel3.setText("Ano");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel4.setText("CaracterÃ­sticas");
+        jLabel4.setText("Características");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel5.setText("Quilometragem");
@@ -70,7 +70,7 @@ public class TelaCadastroCarro extends javax.swing.JFrame {
         jScrollPane4.setViewportView(jTextArea4);
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel6.setText("DescriÃ§Ã£o");
+        jLabel6.setText("Descrição");
 
         jButton1.setText("Voltar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -81,6 +81,7 @@ public class TelaCadastroCarro extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(192, 54, 79));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Criar Carro");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
