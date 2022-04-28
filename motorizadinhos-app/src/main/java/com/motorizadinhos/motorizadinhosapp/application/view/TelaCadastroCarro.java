@@ -79,6 +79,7 @@ public class TelaCadastroCarro extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(192, 54, 79));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setText("Criar Carro");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
