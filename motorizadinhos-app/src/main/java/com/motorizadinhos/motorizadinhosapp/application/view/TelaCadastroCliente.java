@@ -69,7 +69,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("Nome do Cliente:");
+        jLabel2.setText("Nome do Cliente");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,9 +77,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Sobrenome do Cliente:");
+        jLabel3.setText("Sobrenome do Cliente");
 
-        jLabel4.setText("Data de Nascimento:");
+        jLabel4.setText("Data de Nascimento");
 
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,9 +87,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("CPF do Cliente:");
+        jLabel5.setText("CPF do Cliente");
 
-        jLabel6.setText("Email:");
+        jLabel6.setText("Email");
 
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -97,9 +97,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setText("Telefone Fixo:");
+        jLabel7.setText("Telefone Fixo");
 
-        jLabel8.setText("Telefone Celular:");
+        jLabel8.setText("Telefone Celular");
 
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -107,9 +107,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel9.setText("Rua:");
+        jLabel9.setText("Rua");
 
-        jLabel10.setText("Número:");
+        jLabel10.setText("NÃºmero");
 
         jTextField9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,9 +117,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel11.setText("Cidade:");
+        jLabel11.setText("Cidade");
 
-        jLabel12.setText("Bairro:");
+        jLabel12.setText("Bairro");
 
         jTextField11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,9 +135,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel13.setText("Estado:");
+        jLabel13.setText("Estado");
 
-        jLabel14.setText("Situação:");
+        jLabel14.setText("SituaÃ§Ã£o");
 
         jCheckBox1.setText("Ativo");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
