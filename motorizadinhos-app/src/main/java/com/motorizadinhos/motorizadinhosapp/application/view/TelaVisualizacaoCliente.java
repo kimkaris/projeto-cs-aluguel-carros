@@ -75,13 +75,13 @@ public class TelaVisualizacaoCarro extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "Funcionário", "Usuário", "Situação"
+                "Cliente", "CPF", "Situação"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
 
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jButton2.setText("Criar Funcionário");
+        jButton2.setText("Criar Cliente");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

@@ -60,14 +60,14 @@ public class TelaPrincipal extends javax.swing.JFrame {
         setBackground(new java.awt.Color(192, 54, 79));
 
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jButton5.setText("Cadastrar Funcionário");
+        jButton5.setText("Cadastrar Cliente");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
 
-        jLabel2.setText("Nome do Funcionário:");
+        jLabel2.setText("Nome do Cliente:");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,7 +75,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Sobrenome do Funcionário:");
+        jLabel3.setText("Sobrenome do Cliente:");
 
         jLabel4.setText("Data de Nascimento:");
 
@@ -85,7 +85,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("CPF do Funcionário:");
+        jLabel5.setText("CPF do Cliente:");
 
         jLabel6.setText("Email:");
 
