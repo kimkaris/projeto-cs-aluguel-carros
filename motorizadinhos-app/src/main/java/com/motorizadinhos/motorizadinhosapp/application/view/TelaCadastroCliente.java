@@ -59,15 +59,22 @@ public class TelaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(192, 54, 79));
 
+        jButton5.setBackground(new java.awt.Color(192, 54, 79));
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+
         jButton5.setText("Cadastrar Cliente");
+
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+       
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
 
+
         jLabel2.setText("Nome do Cliente:");
+
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,7 +82,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+
         jLabel3.setText("Sobrenome do Cliente:");
+
 
         jLabel4.setText("Data de Nascimento:");
 
@@ -85,7 +94,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
+
         jLabel5.setText("CPF do Cliente:");
+
 
         jLabel6.setText("Email:");
 
@@ -107,7 +118,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jLabel9.setText("Rua:");
 
-        jLabel10.setText("Número:");
+        jLabel10.setText("NÃºmero:");
 
         jTextField9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,7 +146,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jLabel13.setText("Estado:");
 
-        jLabel14.setText("Situação:");
+        jLabel14.setText("SituaÃ§Ã£o:");
 
         jCheckBox1.setText("Ativo");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
