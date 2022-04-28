@@ -59,15 +59,17 @@ public class TelaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(192, 54, 79));
 
+        jButton5.setBackground(new java.awt.Color(192, 54, 79));
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jButton5.setText("Cadastrar Funcion·rio");
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setText("Cadastrar Funcion√°rio");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
             }
         });
 
-        jLabel2.setText("Nome do Funcion·rio:");
+        jLabel2.setText("Nome do Funcion√°rio:");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,7 +77,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Sobrenome do Funcion·rio:");
+        jLabel3.setText("Sobrenome do Funcion√°rio:");
 
         jLabel4.setText("Data de Nascimento:");
 
@@ -85,7 +87,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("CPF do Funcion·rio:");
+        jLabel5.setText("CPF do Funcion√°rio:");
 
         jLabel6.setText("Email:");
 
@@ -107,7 +109,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jLabel9.setText("Rua:");
 
-        jLabel10.setText("N˙mero:");
+        jLabel10.setText("N√∫mero:");
 
         jTextField9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,7 +137,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jLabel13.setText("Estado:");
 
-        jLabel14.setText("SituaÁ„o:");
+        jLabel14.setText("Situa√ß√£o:");
 
         jCheckBox1.setText("Ativo");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
