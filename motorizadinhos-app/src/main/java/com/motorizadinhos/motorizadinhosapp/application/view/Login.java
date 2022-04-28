@@ -38,11 +38,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(192, 54, 79));
 
-
         jButton5.setBackground(new java.awt.Color(192, 54, 79));
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
-
         jButton5.setLabel("Entrar");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -51,9 +49,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
         });
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        jLabel1.setText("Locadora de VeÃ­culos MotorizaDINhos");
+        jLabel1.setText("Locadora de Veículos MotorizaDINhos");
 
-        jLabel2.setText("Email:");
+        jLabel2.setText("Email");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -61,7 +59,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Senha:");
+        jLabel3.setText("Senha");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

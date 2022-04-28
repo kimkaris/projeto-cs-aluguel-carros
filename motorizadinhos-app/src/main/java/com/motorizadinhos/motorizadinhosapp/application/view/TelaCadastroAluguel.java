@@ -45,19 +45,19 @@ public class TelaCadastroCarro extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel1.setText("ID do carro");
+        jLabel1.setText("ID do Carro");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setText("Cliente que realizou o aluguel");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel3.setText("Funcion√°rio respons√°vel pelo aluguel");
+        jLabel3.setText("Funcion·rio respons·vel pelo aluguel");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel4.setText("Data de realiza√ß√£o do aluguel do carro");
+        jLabel4.setText("Data de realizaÁ„o do aluguel do carro");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel6.setText("Data de devolu√ß√£o do carro");
+        jLabel6.setText("Data de devoluÁ„o do carro");
 
         jButton1.setText("Voltar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -69,7 +69,7 @@ public class TelaCadastroCarro extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(192, 54, 79));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Criar aluguel");
+        jButton2.setText("Criar Aluguel");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -81,7 +81,7 @@ public class TelaCadastroCarro extends javax.swing.JFrame {
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel7.setText("Situa√ß√£o");
+        jLabel7.setText("SituaÁ„o");
 
         jCheckBox1.setText("Ativo");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {

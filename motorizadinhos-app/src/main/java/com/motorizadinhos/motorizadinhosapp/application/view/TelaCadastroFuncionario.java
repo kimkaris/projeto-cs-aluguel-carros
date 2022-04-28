@@ -59,7 +59,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(192, 54, 79));
 
+        jButton5.setBackground(new java.awt.Color(192, 54, 79));
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Cadastrar Funcionário");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,7 +69,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("Nome do Funcionário:");
+        jLabel2.setText("Nome do Funcionário");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,9 +77,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Sobrenome do Funcionário:");
+        jLabel3.setText("Sobrenome do Funcionário");
 
-        jLabel4.setText("Data de Nascimento:");
+        jLabel4.setText("Data de Nascimento");
 
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,9 +87,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("CPF do Funcionário:");
+        jLabel5.setText("CPF do Funcionário");
 
-        jLabel6.setText("Email:");
+        jLabel6.setText("Email");
 
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -95,9 +97,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setText("Telefone Fixo:");
+        jLabel7.setText("Telefone Fixo");
 
-        jLabel8.setText("Telefone Celular:");
+        jLabel8.setText("Telefone Celular");
 
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,9 +107,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel9.setText("Rua:");
+        jLabel9.setText("Rua");
 
-        jLabel10.setText("Número:");
+        jLabel10.setText("Número");
 
         jTextField9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -115,9 +117,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel11.setText("Cidade:");
+        jLabel11.setText("Cidade");
 
-        jLabel12.setText("Bairro:");
+        jLabel12.setText("Bairro");
 
         jTextField11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -133,9 +135,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jLabel13.setText("Estado:");
+        jLabel13.setText("Estado");
 
-        jLabel14.setText("Situação:");
+        jLabel14.setText("Situação");
 
         jCheckBox1.setText("Ativo");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
