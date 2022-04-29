@@ -1,18 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package com.motorizadinhos.motorizadinhosapp.application.view;
 
-/**
- *
- * @author karin
- */
 public class TelaVisualizacaoCarro extends javax.swing.JFrame {
 
-    /**
-     * Creates new form NewJFrame
-     */
     public TelaVisualizacaoCarro() {
         initComponents();
     }
@@ -75,7 +64,7 @@ public class TelaVisualizacaoCarro extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "Modelo", "Marca", "Situação"
+                "Modelo", "Marca", "SituaÃ§Ã£o"
             }
         ));
         jScrollPane1.setViewportView(jTable1);

@@ -1,19 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package com.motorizadinhos.motorizadinhosapp.application.view;
 
-/**
- *
- * @author karin
- */
-public class TelaVisualizacaoCarro extends javax.swing.JFrame {
+public class TelaVisualizacaoFuncionario extends javax.swing.JFrame {
 
-    /**
-     * Creates new form NewJFrame
-     */
-    public TelaVisualizacaoCarro() {
+    public TelaVisualizacaoFuncionario() {
         initComponents();
     }
 
@@ -75,7 +64,7 @@ public class TelaVisualizacaoCarro extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "Funcionário", "Usuário", "Situação"
+                "Funcionï¿½rio", "Usuï¿½rio", "Situaï¿½ï¿½o"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -83,7 +72,7 @@ public class TelaVisualizacaoCarro extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(192, 54, 79));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Criar Funcionário");
+        jButton2.setText("Criar Funcionï¿½rio");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -163,7 +152,7 @@ public class TelaVisualizacaoCarro extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new TelaVisualizacaoCarro().setVisible(true);
+                new TelaVisualizacaoFuncionario().setVisible(true);
             }
         });
     }
