@@ -1,19 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package com.motorizadinhos.motorizadinhosapp.application.view;
 
-/**
- *
- * @author karin
- */
-public class TelaVisualizacaoCarro extends javax.swing.JFrame {
+public class TelaVisualizacaoCliente extends javax.swing.JFrame {
 
-    /**
-     * Creates new form NewJFrame
-     */
-    public TelaVisualizacaoCarro() {
+    public TelaVisualizacaoCliente() {
         initComponents();
     }
 
@@ -75,7 +64,7 @@ public class TelaVisualizacaoCarro extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "Cliente", "CPF", "Situação"
+                "Cliente", "CPF", "Situaï¿½ï¿½o"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -143,13 +132,13 @@ public class TelaVisualizacaoCarro extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TelaVisualizacaoCarro.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaVisualizacaoCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TelaVisualizacaoCarro.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaVisualizacaoCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TelaVisualizacaoCarro.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaVisualizacaoCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TelaVisualizacaoCarro.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaVisualizacaoCliente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -161,11 +150,6 @@ public class TelaVisualizacaoCarro extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new TelaVisualizacaoCarro().setVisible(true);
-            }
-        });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
