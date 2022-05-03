@@ -2,6 +2,12 @@ package com.motorizadinhos.motorizadinhosapp.application.view;
 
 import java.awt.Color;
 
+import com.motorizadinhos.motorizadinhosapp.application.repository.funcionario.FuncionarioRepository;
+import com.motorizadinhos.motorizadinhosapp.application.service.funcionario.FuncionarioService;
+import com.motorizadinhos.motorizadinhosapp.application.entity.funcionario.Funcionario;
+
+import javax.swing.JOptionPane;
+
 public class TelaLogin extends javax.swing.JFrame {
 
     public TelaLogin() {
@@ -97,7 +103,15 @@ public class TelaLogin extends javax.swing.JFrame {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
-        
+        if(jTextField1.getText().isEmpty()||jPasswordField1.getText().isEmpty()){
+            JOptionPane.showMessageDialog(null, "Todos os campos devem ser preenchidos!");
+            return;
+        }
+        this.dispose();
+         new TelaPrincipal().setVisible(true);
+        //PRECISA DE UM BUIDER, MAS NÃO SEI USAR
+//        Funcionario funcionario=new Funcionario();
+//        funcionario.autenticar(jPasswordField1.getText());
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
