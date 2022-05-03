@@ -35,13 +35,13 @@ public class TelaCadastroAluguel extends javax.swing.JFrame {
         jLabel2.setText("Cliente que realizou o aluguel");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel3.setText("Funcion�rio respons�vel pelo aluguel");
+        jLabel3.setText("Funcionário responsável pelo aluguel");
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel4.setText("Data de realiza��o do aluguel do carro");
+        jLabel4.setText("Data de realização do aluguel do carro");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel6.setText("Data de devolu��o do carro");
+        jLabel6.setText("Data de devolução do carro");
 
         jButton1.setText("Voltar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -65,7 +65,7 @@ public class TelaCadastroAluguel extends javax.swing.JFrame {
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel7.setText("Situa��o");
+        jLabel7.setText("Situação");
 
         jCheckBox1.setText("Ativo");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
