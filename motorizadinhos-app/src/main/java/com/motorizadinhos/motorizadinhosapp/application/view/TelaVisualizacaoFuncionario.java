@@ -64,7 +64,7 @@ public class TelaVisualizacaoFuncionario extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
-                "Funcion�rio", "Usu�rio", "Situa��o"
+                "Funcionário", "Usuário", "Situação"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -72,7 +72,12 @@ public class TelaVisualizacaoFuncionario extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(192, 54, 79));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Criar Funcion�rio");
+        jButton2.setText("Criar Funcionário");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -113,7 +118,15 @@ public class TelaVisualizacaoFuncionario extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        this.dispose();
+         new TelaPrincipal().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        this.dispose();
+         new TelaCadastroFuncionario().setVisible(true);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
