@@ -22,7 +22,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton1.setBackground(new java.awt.Color(192, 54, 79));
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Funcion�rios");
+        jButton1.setText("Funcionários");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -32,7 +32,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton4.setBackground(new java.awt.Color(192, 54, 79));
         jButton4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("Ve�culos");
+        jButton4.setText("Veículos");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -52,16 +52,16 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jButton2.setBackground(new java.awt.Color(192, 54, 79));
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Alugu�is");
+        jButton2.setText("Aluguéis");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
 
-        jButton5.setBackground(new java.awt.Color(192, 54, 79));
+        jButton5.setBackground(null);
         jButton5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setForeground(java.awt.Color.black);
         jButton5.setText("Sair");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
