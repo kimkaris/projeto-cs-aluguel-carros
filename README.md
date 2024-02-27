@@ -1,5 +1,8 @@
 # projeto-cs
 
+## Objetivo
+O objetivo deste trabalho é modelar e desenvolver um sistema de aluguel de carros para um estabelecimento.
+
 ## 1. Backlog do produto
 1.1. [H001] Controle de disponibilidade dos carros - visão atendentes
 Como atendente, preciso controlar os carros que foram alugados e os que ainda estão disponíveis para aluguel. Quero que seja possível alterar a situação do modelo do carro como disponível/alugado/indisponível. Também quero que seja possível registrar a quantidade de dias que esse carro foi alugado (caso seja necessário aplicar multa se ele não for devolvido), se ele optou por alugar o veículo com opção de seguro, e que dê para inserir outras informações adicionais.
